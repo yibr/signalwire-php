@@ -44,11 +44,20 @@
     "ratchet/pawl": "^0.3.4",
     "monolog/monolog": "^1.24 || ^2.0",
     "ramsey/uuid": "^3.8 || ^4.0",
-    "recoil/react": "^1.0",
+    "recoil/react": "dev-master",
     "guzzlehttp/guzzle": ">=6.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^7",
     "php-vcr/php-vcr": "dev-master"
-  }
+  },
+  "repositories" :[
+
+
+        {
+            "type" : "vcs",
+            "url" : "https://github.com/yibr/react"
+
+        }
+    ]
 }
